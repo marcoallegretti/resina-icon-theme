@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<defs>
+<filter id="sh" x="-30%" y="-100%" width="160%" height="300%">
+<feGaussianBlur stdDeviation="3" />
+</filter>
+<linearGradient id="lit" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".75" />
+<stop offset=".42" stop-color="#fff" stop-opacity="0" />
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset=".55" stop-color="#000" stop-opacity="0" />
+<stop offset="1" stop-color="#000" stop-opacity=".14" />
+</linearGradient>
+<filter id="rim" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d" />
+<feFlood flood-color="#267b9e" />
+<feComposite in2="d" operator="in" />
+<feMerge>
+<feMergeNode />
+<feMergeNode in="SourceGraphic" />
+</feMerge>
+</filter>
+</defs>
+<g filter="url(#rim)">
+<ellipse cx="65" cy="118" rx="38" ry="4.5" fill="#000" opacity=".32" filter="url(#sh)" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" transform="translate(0 6)" fill="#b4b1a9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="#dad7cf" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="url(#shade)" />
+<clipPath id="c80">
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" />
+</clipPath>
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="#f8f5ee" stroke-width="3" clip-path="url(#c80)" opacity=".9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="url(#lit)" stroke-width="3" clip-path="url(#c80)" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106Z" fill="#b4b1a9" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106" fill="none" stroke="#f8f5ee" stroke-width="1.5" />
+<path d="M38 44 46 50 38 56" fill="none" stroke="#65bae1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="52" y="48.5" width="30" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="52" y="47.5" width="30" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<rect x="38" y="61" width="48" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="38" y="60" width="48" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" transform="translate(0 3)" fill="#4394b8" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" fill="#65bae1" />
+<path d="M47.696 99.48V87.456H53.06Q54.536 87.456 55.589 87.78Q56.642 88.104 57.2 88.788Q57.758 89.472 57.758 90.57Q57.758 91.47 57.308 92.091Q56.858 92.712 56.066 93.09Q57.038 93.396 57.641 94.107Q58.244 94.818 58.244 95.916Q58.244 97.14 57.65 97.932Q57.056 98.724 55.94 99.102Q54.824 99.48 53.24 99.48ZM50.756 96.942H53.384Q53.924 96.942 54.293 96.798Q54.662 96.654 54.851 96.375Q55.04 96.096 55.04 95.7Q55.04 95.106 54.617 94.8Q54.194 94.494 53.384 94.494H50.756ZM50.756 92.136H53.168Q53.852 92.136 54.221 91.83Q54.59 91.524 54.59 91.02Q54.59 90.498 54.23 90.219Q53.87 89.94 53.204 89.94H50.756ZM60.058 99.48V87.456H63.118V96.78H68.752V99.48ZM70.602 99.48V87.456H76.128Q77.424 87.456 78.522 87.87Q79.62 88.284 80.286 89.166Q80.952 90.048 80.952 91.452Q80.952 92.856 80.286 93.747Q79.62 94.638 78.522 95.052Q77.424 95.466 76.128 95.466H73.662V99.48ZM73.662 92.874H76.074Q76.758 92.874 77.244 92.541Q77.73 92.208 77.73 91.452Q77.73 90.714 77.244 90.381Q76.758 90.048 76.074 90.048H73.662Z" fill="#fff" />
+</g>
+</svg>

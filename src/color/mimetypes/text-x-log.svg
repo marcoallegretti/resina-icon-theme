@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<defs>
+<filter id="sh" x="-30%" y="-100%" width="160%" height="300%">
+<feGaussianBlur stdDeviation="3" />
+</filter>
+<linearGradient id="lit" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".75" />
+<stop offset=".42" stop-color="#fff" stop-opacity="0" />
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset=".55" stop-color="#000" stop-opacity="0" />
+<stop offset="1" stop-color="#000" stop-opacity=".14" />
+</linearGradient>
+<filter id="rim" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d" />
+<feFlood flood-color="#6f737a" />
+<feComposite in2="d" operator="in" />
+<feMerge>
+<feMergeNode />
+<feMergeNode in="SourceGraphic" />
+</feMerge>
+</filter>
+</defs>
+<g filter="url(#rim)">
+<ellipse cx="65" cy="118" rx="38" ry="4.5" fill="#000" opacity=".32" filter="url(#sh)" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" transform="translate(0 6)" fill="#b4b1a9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="#dad7cf" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="url(#shade)" />
+<clipPath id="c102">
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" />
+</clipPath>
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="#f8f5ee" stroke-width="3" clip-path="url(#c102)" opacity=".9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="url(#lit)" stroke-width="3" clip-path="url(#c102)" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106Z" fill="#b4b1a9" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106" fill="none" stroke="#f8f5ee" stroke-width="1.5" />
+<path d="M38 44 46 50 38 56" fill="none" stroke="#3f4349" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="52" y="48.5" width="30" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="52" y="47.5" width="30" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<rect x="38" y="61" width="48" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="38" y="60" width="48" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" transform="translate(0 3)" fill="#21242a" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" fill="#3f4349" />
+<path d="M46.337 99.48V87.456H49.397V96.78H55.031V99.48ZM62.173 99.696Q60.319 99.696 58.897 98.922Q57.475 98.148 56.674 96.753Q55.873 95.358 55.873 93.468Q55.873 91.578 56.674 90.183Q57.475 88.788 58.897 88.014Q60.319 87.24 62.173 87.24Q64.027 87.24 65.449 88.014Q66.871 88.788 67.672 90.183Q68.473 91.578 68.473 93.468Q68.473 95.358 67.672 96.753Q66.871 98.148 65.449 98.922Q64.027 99.696 62.173 99.696ZM62.173 97.176Q63.001 97.176 63.685 96.762Q64.369 96.348 64.783 95.52Q65.197 94.692 65.197 93.468Q65.197 92.244 64.783 91.416Q64.369 90.588 63.685 90.174Q63.001 89.76 62.173 89.76Q61.345 89.76 60.661 90.174Q59.977 90.588 59.563 91.416Q59.149 92.244 59.149 93.468Q59.149 94.692 59.563 95.52Q59.977 96.348 60.661 96.762Q61.345 97.176 62.173 97.176ZM75.741 99.696Q73.959 99.696 72.672 98.94Q71.385 98.184 70.683 96.78Q69.981 95.376 69.981 93.432Q69.981 91.524 70.773 90.138Q71.565 88.752 72.978 87.996Q74.391 87.24 76.245 87.24Q77.865 87.24 79.224 87.879Q80.583 88.518 81.231 89.814L78.459 90.822Q78.225 90.39 77.667 90.075Q77.109 89.76 76.209 89.76Q75.381 89.76 74.706 90.174Q74.031 90.588 73.635 91.398Q73.239 92.208 73.239 93.432Q73.239 94.638 73.617 95.475Q73.995 96.312 74.67 96.744Q75.345 97.176 76.245 97.176Q76.713 97.176 77.163 97.077Q77.613 96.978 77.973 96.771Q78.333 96.564 78.549 96.213Q78.765 95.862 78.765 95.358V95.034H76.209V92.568H81.843V99.48H79.809L79.413 98.184Q78.837 98.94 77.946 99.318Q77.055 99.696 75.741 99.696Z" fill="#fff" />
+</g>
+</svg>

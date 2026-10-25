@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<defs>
+<filter id="sh" x="-30%" y="-100%" width="160%" height="300%">
+<feGaussianBlur stdDeviation="3" />
+</filter>
+<linearGradient id="lit" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".75" />
+<stop offset=".42" stop-color="#fff" stop-opacity="0" />
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset=".55" stop-color="#000" stop-opacity="0" />
+<stop offset="1" stop-color="#000" stop-opacity=".14" />
+</linearGradient>
+<filter id="rim" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d" />
+<feFlood flood-color="#a6622e" />
+<feComposite in2="d" operator="in" />
+<feMerge>
+<feMergeNode />
+<feMergeNode in="SourceGraphic" />
+</feMerge>
+</filter>
+</defs>
+<g filter="url(#rim)">
+<ellipse cx="65" cy="118" rx="38" ry="4.5" fill="#000" opacity=".32" filter="url(#sh)" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" transform="translate(0 6)" fill="#b4b1a9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="#dad7cf" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="url(#shade)" />
+<clipPath id="c85">
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" />
+</clipPath>
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="#f8f5ee" stroke-width="3" clip-path="url(#c85)" opacity=".9" />
+<path d="M34 10H78L106 38V102A10 10 0 0 1 96 112H34A10 10 0 0 1 24 102V20A10 10 0 0 1 34 10Z" fill="none" stroke="url(#lit)" stroke-width="3" clip-path="url(#c85)" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106Z" fill="#b4b1a9" />
+<path d="M78 10V28A10 10 0 0 0 88 38H106" fill="none" stroke="#f8f5ee" stroke-width="1.5" />
+<path d="M38 44 46 50 38 56" fill="none" stroke="#b66b31" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="52" y="48.5" width="30" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="52" y="47.5" width="30" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<rect x="38" y="61" width="48" height="5" rx="2.5" fill="#fff" opacity=".7" />
+<rect x="38" y="60" width="48" height="5" rx="2.5" fill="#3f4349" opacity="0.55" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" transform="translate(0 3)" fill="#8d490a" />
+<path d="M39 80H89A9 9 0 0 1 98 89V97A9 9 0 0 1 89 106H39A9 9 0 0 1 30 97V89A9 9 0 0 1 39 80Z" fill="#b66b31" />
+<path d="M52.286 99.696Q50.396 99.696 49.019 98.949Q47.642 98.202 46.904 96.807Q46.166 95.412 46.166 93.468Q46.166 91.56 46.922 90.165Q47.678 88.77 49.064 88.005Q50.45 87.24 52.34 87.24Q54.086 87.24 55.364 88.005Q56.642 88.77 57.344 90.048L54.626 91.038Q54.23 90.318 53.564 90.039Q52.898 89.76 52.25 89.76Q51.458 89.76 50.819 90.201Q50.18 90.642 49.802 91.47Q49.424 92.298 49.424 93.468Q49.424 94.674 49.802 95.502Q50.18 96.33 50.837 96.753Q51.494 97.176 52.286 97.176Q52.682 97.176 53.141 97.077Q53.6 96.978 54.032 96.708Q54.464 96.438 54.734 95.916L57.416 96.906Q56.678 98.184 55.346 98.94Q54.014 99.696 52.286 99.696ZM64.702 99.696Q62.848 99.696 61.426 98.922Q60.004 98.148 59.203 96.753Q58.402 95.358 58.402 93.468Q58.402 91.578 59.203 90.183Q60.004 88.788 61.426 88.014Q62.848 87.24 64.702 87.24Q66.556 87.24 67.978 88.014Q69.4 88.788 70.201 90.183Q71.002 91.578 71.002 93.468Q71.002 95.358 70.201 96.753Q69.4 98.148 67.978 98.922Q66.556 99.696 64.702 99.696ZM64.702 97.176Q65.53 97.176 66.214 96.762Q66.898 96.348 67.312 95.52Q67.726 94.692 67.726 93.468Q67.726 92.244 67.312 91.416Q66.898 90.588 66.214 90.174Q65.53 89.76 64.702 89.76Q63.874 89.76 63.19 90.174Q62.506 90.588 62.092 91.416Q61.678 92.244 61.678 93.468Q61.678 94.692 62.092 95.52Q62.506 96.348 63.19 96.762Q63.874 97.176 64.702 97.176ZM72.978 99.48V87.456H81.726V90.156H76.038V92.586H81.654V95.286H76.038V99.48Z" fill="#fff" />
+</g>
+</svg>

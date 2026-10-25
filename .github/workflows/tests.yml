@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: EUPL-1.2
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unit:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python: ["3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install tools used by the fidelity tests
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin imagemagick
+      - name: Install Python requirements
+        run: pip install -r requirements.txt
+      - name: Run the unit tests
+        run: python -m unittest discover -s tests
+      - name: Build, validate and package
+        run: make dist SOURCE_DATE_EPOCH=1700000000

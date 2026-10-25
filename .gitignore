@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/build/
+/dist/
+/resina-icon-theme.tar.xz
+/resina-icon-theme.tar.xz.sha256

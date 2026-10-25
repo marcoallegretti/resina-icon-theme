@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: EUPL-1.2
+cmake_minimum_required(VERSION 3.16)
+project(resina-icon-tests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+find_package(Qt6 REQUIRED COMPONENTS Gui Svg)
+add_executable(lookup_probe lookup_probe.cpp)
+target_link_libraries(lookup_probe PRIVATE Qt6::Gui Qt6::Svg)
+find_package(Qt6 COMPONENTS Quick QuickControls2 Qml)
+if(Qt6Quick_FOUND AND Qt6QuickControls2_FOUND)
+    add_executable(quickprobe quickprobe.cpp)
+    target_link_libraries(quickprobe PRIVATE Qt6::Gui Qt6::Svg Qt6::Quick Qt6::QuickControls2 Qt6::Qml)
+endif()

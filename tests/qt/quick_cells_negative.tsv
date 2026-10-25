@@ -1,0 +1,7 @@
+n-tinted-as-original	folder	48	#d81b60	#ECE8DF	1	original
+n-symbolic-wrong-colour	go-next-symbolic	24	transparent	#121316	1	mask:#eeeeee
+n-blank-for-present	folder	48	transparent	#ECE8DF	1	blank
+n-original-for-missing	resina-nonexistent-icon	48	transparent	#ECE8DF	1	original
+n-not-original-for-original	folder	48	transparent	#ECE8DF	1	not-original
+n-invisible-tint	go-next-symbolic	24	#ECE8DF	#ECE8DF	1	mask:#ECE8DF
+n-near-tint	go-next-symbolic	48	#303030	#ECE8DF	1	mask:#222222

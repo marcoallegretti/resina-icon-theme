@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+<defs>
+<filter id="sh" x="-30%" y="-100%" width="160%" height="300%">
+<feGaussianBlur stdDeviation="3" />
+</filter>
+<linearGradient id="lit" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity=".75" />
+<stop offset=".42" stop-color="#fff" stop-opacity="0" />
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset=".55" stop-color="#000" stop-opacity="0" />
+<stop offset="1" stop-color="#000" stop-opacity=".14" />
+</linearGradient>
+<filter id="rim" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d" />
+<feFlood flood-color="#1e7ba0" />
+<feComposite in2="d" operator="in" />
+<feMerge>
+<feMergeNode />
+<feMergeNode in="SourceGraphic" />
+</feMerge>
+</filter>
+</defs>
+<g filter="url(#rim)">
+<ellipse cx="64" cy="114" rx="50" ry="4.5" fill="#000" opacity=".32" filter="url(#sh)" />
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" transform="translate(0 6)" fill="#21242a" />
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" fill="#3f4349" />
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" fill="url(#shade)" />
+<clipPath id="c7">
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" />
+</clipPath>
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" fill="none" stroke="#575b61" stroke-width="3" clip-path="url(#c7)" opacity=".9" />
+<path d="M24 26H104A12 12 0 0 1 116 38V90A12 12 0 0 1 104 102H24A12 12 0 0 1 12 90V38A12 12 0 0 1 24 26Z" fill="none" stroke="url(#lit)" stroke-width="3" clip-path="url(#c7)" />
+<path d="M28 36H100A6 6 0 0 1 106 42V60A6 6 0 0 1 100 66H28A6 6 0 0 1 22 60V42A6 6 0 0 1 28 36Z" fill="#0b0d11" />
+<rect x="30" y="47" width="40" height="6" rx="3" fill="#21242a" />
+<circle cx="94" cy="51" r="3.4" fill="#65bae1" />
+<path d="M39 72H89A9 9 0 0 1 98 81V89A9 9 0 0 1 89 98H39A9 9 0 0 1 30 89V81A9 9 0 0 1 39 72Z" transform="translate(0 3)" fill="#4394b8" />
+<path d="M39 72H89A9 9 0 0 1 98 81V89A9 9 0 0 1 89 98H39A9 9 0 0 1 30 89V81A9 9 0 0 1 39 72Z" fill="#65bae1" />
+<path d="M51.638 91.48 47.588 79.456H50.738L53.402 88.06L56.084 79.456H59.27L55.184 91.48ZM60.922 91.48V79.456H65.008Q66.574 79.456 67.861 79.78Q69.148 80.104 70.084 80.815Q71.02 81.526 71.533 82.669Q72.046 83.812 72.046 85.468Q72.046 87.142 71.533 88.294Q71.02 89.446 70.084 90.148Q69.148 90.85 67.852 91.165Q66.556 91.48 65.008 91.48ZM63.982 88.906H65.08Q65.89 88.906 66.592 88.762Q67.294 88.618 67.807 88.249Q68.32 87.88 68.608 87.205Q68.896 86.53 68.896 85.468Q68.896 84.406 68.608 83.731Q68.32 83.056 67.807 82.678Q67.294 82.3 66.592 82.147Q65.89 81.994 65.08 81.994H63.982ZM73.5 91.48V89.248H75.156V81.688H73.5V79.456H79.872V81.688H78.216V89.248H79.872V91.48Z" fill="#fff" />
+</g>
+</svg>

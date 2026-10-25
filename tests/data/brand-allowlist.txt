@@ -1,0 +1,7 @@
+application-x-python-bytecode
+face-raspberry
+face-raspberry-symbolic
+focus-windows
+focus-windows-symbolic
+text-x-emacs-lisp
+text-x-python

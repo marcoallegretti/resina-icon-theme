@@ -1,0 +1,189 @@
+accessories-calculator	apps/calculator
+accessories-character-map	apps/characters
+accessories-screenshot-tool	apps/screenshot
+accessories-text-editor	apps/text-editor
+application-epub+zip	mimetypes/application-epub-zip
+application-loc+xml	mimetypes/application-loc-xml
+application-octet-stream	mimetypes/application-x-generic
+application-pkix-cert	mimetypes/application-certificate
+application-vnd.comicbook+zip	mimetypes/application-vnd.comicbook-zip
+application-vnd.oasis.opendocument.spreadsheet	mimetypes/x-office-spreadsheet
+application-vnd.oasis.opendocument.text	mimetypes/x-office-document
+application-x-cd-image	devices/media-optical
+application-x-compressed-tar	mimetypes/package-x-generic
+application-x-ipynb+json	mimetypes/application-x-ipynb-json
+application-x-model	mimetypes/model
+application-x-musescore4portable+xml	mimetypes/application-x-musescore4portable-xml
+applications-games	apps/game-home
+applications-graphics	apps/drawing
+applications-internet	apps/web
+applications-multimedia	apps/videos
+applications-office	apps/documents
+applications-system	apps/settings
+ark	apps/archives	thirdparty
+brave-origin	apps/brave-desktop
+carla-control	apps/carla
+computer-laptop	devices/computer
+cs-display	devices/video-display	thirdparty
+cs-network	apps/connections	thirdparty
+featherpad	apps/text-editor	thirdparty
+folder-3dbenchy-legacy	places/folder-3dbenchy
+folder-android-legacy	places/folder-android
+folder-appimage-legacy	places/folder-appimage
+folder-archlinux-legacy	places/folder-archlinux
+folder-arduino-legacy	places/folder-arduino
+folder-backup-legacy	places/folder-backup
+folder-bitwig-legacy	places/folder-bitwig
+folder-blender-legacy	places/folder-blender
+folder-books-legacy	places/folder-books
+folder-c-legacy	places/folder-c
+folder-camera-legacy	places/folder-camera
+folder-cd-legacy	places/folder-cd
+folder-cloud-legacy	places/folder-cloud
+folder-code-legacy	places/folder-code
+folder-codeberg-legacy	places/folder-codeberg
+folder-computer-legacy	places/folder-computer
+folder-container-legacy	places/folder-container
+folder-cplusplus-legacy	places/folder-cplusplus
+folder-csharp-legacy	places/folder-csharp
+folder-docker-legacy	places/folder-docker
+folder-downloads	places/folder-download
+folder-drag-accept	places/folder
+folder-drawer-legacy	places/folder-drawer
+folder-dropbox-legacy	places/folder-dropbox
+folder-earth-legacy	places/folder-earth
+folder-emacs-legacy	places/folder-emacs
+folder-extensions-legacy	places/folder-extensions
+folder-fedora-legacy	places/folder-fedora
+folder-flatpak-legacy	places/folder-flatpak
+folder-freecad-legacy	places/folder-freecad
+folder-games-card-legacy	places/folder-games-card
+folder-games-legacy	places/folder-games
+folder-gimp-legacy	places/folder-gimp
+folder-git-alt-legacy	places/folder-git-alt
+folder-git-legacy	places/folder-git
+folder-github-legacy	places/folder-github
+folder-gitlab-legacy	places/folder-gitlab
+folder-globe-legacy	places/folder-globe
+folder-gnome-legacy	places/folder-gnome
+folder-go-legacy	places/folder-go
+folder-godot-legacy	places/folder-godot
+folder-google-drive-legacy	places/folder-google-drive
+folder-inkscape-legacy	places/folder-inkscape
+folder-java-legacy	places/folder-java
+folder-kde-legacy	places/folder-kde
+folder-kicad-legacy	places/folder-kicad
+folder-local-legacy	places/folder-local
+folder-lua-legacy	places/folder-lua
+folder-mega-legacy	places/folder-mega
+folder-money-legacy	places/folder-money
+folder-musescore-legacy	places/folder-musescore
+folder-neovim-legacy	places/folder-neovim
+folder-network	places/folder-remote
+folder-nextcloud-legacy	places/folder-nextcloud
+folder-nix-legacy	places/folder-nix
+folder-obs-legacy	places/folder-obs
+folder-obsidian-legacy	places/folder-obsidian
+folder-onedrive-legacy	places/folder-onedrive
+folder-openscad-legacy	places/folder-openscad
+folder-opensuse-legacy	places/folder-opensuse
+folder-platformio-legacy	places/folder-platformio
+folder-plugdata-legacy	places/folder-plugdata
+folder-podcast-legacy	places/folder-podcast
+folder-podman-legacy	places/folder-podman
+folder-private-legacy	places/folder-private
+folder-projects-legacy	places/folder-projects
+folder-public	places/folder-publicshare
+folder-python-legacy	places/folder-python
+folder-r-legacy	places/folder-r
+folder-raspberry-pi-legacy	places/folder-raspberry-pi
+folder-reaper-legacy	places/folder-reaper
+folder-recent-legacy	places/folder-recent
+folder-redhat-legacy	places/folder-redhat
+folder-roms-legacy	places/folder-roms
+folder-ruby-legacy	places/folder-ruby
+folder-rust-legacy	places/folder-rust
+folder-school-legacy	places/folder-school
+folder-screencast-legacy	places/folder-screencast
+folder-screenshot-legacy	places/folder-screenshot
+folder-script-legacy	places/folder-script
+folder-shell-legacy	places/folder-shell
+folder-snap-legacy	places/folder-snap
+folder-syncthing-legacy	places/folder-syncthing
+folder-temp-legacy	places/folder-temp
+folder-torrent-legacy	places/folder-torrent
+folder-translation-legacy	places/folder-translation
+folder-ubuntu-legacy	places/folder-ubuntu
+folder-user-legacy	places/folder-user
+folder-vala-legacy	places/folder-vala
+folder-windows-10-legacy	places/folder-windows-10
+folder-windows-legacy	places/folder-windows
+folder-wine-legacy	places/folder-wine
+folder-work-legacy	places/folder-work
+go-home	places/user-home
+gwenview	apps/image-viewer	thirdparty
+inode-directory	places/folder
+keyboard	devices/input-keyboard
+multimedia-volume-control	apps/pavucontrol
+oasis-drawing	mimetypes/x-office-drawing
+oasis-empty	mimetypes/application-x-generic
+oasis-presentation	mimetypes/x-office-presentation
+oasis-presentation-template	mimetypes/x-office-presentation-template
+oasis-spreadsheet	mimetypes/x-office-spreadsheet
+oasis-spreadsheet-template	mimetypes/x-office-spreadsheet-template
+oasis-text	mimetypes/x-office-document
+oasis-text-template	mimetypes/x-office-document-template
+org.gnome.Calculator	apps/calculator	thirdparty
+org.gnome.Characters	apps/characters	thirdparty
+org.gnome.Console	apps/terminal	thirdparty
+org.gnome.FileRoller	apps/archives	thirdparty
+org.gnome.Nautilus	apps/files	thirdparty
+org.gnome.Settings	apps/settings	thirdparty
+org.gnome.Software	apps/software	thirdparty
+org.gnome.SystemMonitor	apps/system-monitor	thirdparty
+org.gnome.Terminal	apps/terminal	thirdparty
+org.gnome.TextEditor	apps/text-editor	thirdparty
+org.gnome.eog	apps/image-viewer	thirdparty
+org.gnome.gedit	apps/text-editor	thirdparty
+org.kde.dolphin	apps/files	thirdparty
+org.kde.kate	apps/kate
+org.xfce.filemanager	apps/files	thirdparty
+org.xfce.mailreader	apps/mail	thirdparty
+org.xfce.mousepad	apps/text-editor	thirdparty
+org.xfce.ristretto	apps/image-viewer	thirdparty
+org.xfce.settings.accessibility	apps/preferences-desktop-accessibility	thirdparty
+org.xfce.settings.appearance	apps/preferences-desktop-theme	thirdparty
+org.xfce.settings.display	devices/video-display	thirdparty
+org.xfce.settings.keyboard	devices/input-keyboard	thirdparty
+org.xfce.settings.manager	apps/settings	thirdparty
+org.xfce.settings.mouse	devices/input-mouse	thirdparty
+org.xfce.taskmanager	apps/system-monitor	thirdparty
+org.xfce.terminal	apps/terminal	thirdparty
+org.xfce.terminalemulator	apps/terminal	thirdparty
+org.xfce.thunar	apps/files	thirdparty
+org.xfce.webbrowser	apps/web	thirdparty
+package	mimetypes/package-x-generic
+pcmanfm-qt	apps/files	thirdparty
+plasmadiscover	apps/software	thirdparty
+plasmashell	apps/start-here-kde
+preferences-desktop	apps/settings
+preferences-desktop-font	apps/fonts
+preferences-desktop-font-installer	apps/fonts
+preferences-desktop-keyboard-shortcuts	devices/input-keyboard
+preferences-desktop-sound	apps/preferences-desktop-multimedia
+preferences-desktop-user-password	apps/preferences-desktop-personal
+preferences-system	apps/settings
+preferences-system-network	apps/connections
+preferences-system-time	apps/clocks
+preferences-system-users	apps/preferences-desktop-personal
+qdbusviewer6	apps/qdbusviewer	thirdparty
+software-sources	apps/software
+spectacle	apps/screenshot	thirdparty
+synaptic	apps/software	thirdparty
+system-file-manager	apps/files
+system-software-install	apps/software
+text-x-preview	mimetypes/application-x-generic
+user-info	status/avatar-default
+utilities-system-monitor	apps/system-monitor
+utilities-terminal	apps/terminal
+zen-twilight	apps/zen-browser

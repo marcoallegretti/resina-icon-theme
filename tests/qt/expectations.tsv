@@ -1,0 +1,38 @@
+folder	own
+user-home	own
+user-trash-full	own
+text-x-generic	own
+application-pdf	own
+image-x-generic	own
+audio-x-generic	own
+video-x-generic	own
+computer	own
+drive-harddisk	own
+image-missing	own
+go-next-symbolic	own
+document-save-symbolic	own
+edit-copy-symbolic	own
+battery-good-symbolic	own
+dialog-warning-symbolic	own
+folder-symbolic	own
+audio-volume-high-symbolic	own
+window-close-symbolic	own
+edit-find-symbolic	own
+list-add-symbolic	own
+inode-directory	alias	folder
+application-epub+zip	alias	application-epub-zip
+application-x-ipynb+json	alias	application-x-ipynb-json
+application-vnd.comicbook+zip	alias	application-vnd.comicbook-zip
+accessories-text-editor	alias	text-editor
+folder-drag-accept	own
+network-wireless-symbolic	own
+application-exit-symbolic	alias	system-log-out-symbolic
+image-loading-symbolic	own
+value-increase-symbolic	alias	list-add-symbolic
+resina-nonexistent-icon	miss
+Folder	miss
+FOLDER	miss
+folder-SYMBOLIC	generic	folder
+decoy-hicolor-only	fallback
+go-next	alias	go-next-symbolic
+edit-copy	alias	edit-copy-symbolic

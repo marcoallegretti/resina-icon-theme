@@ -1,0 +1,6 @@
+decoy-hicolor-only	own
+resina-absent-icon	own
+inode-directory	alias	computer
+folder	miss
+folder	alias	folder
+folder-resina-absent	generic	computer
