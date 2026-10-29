@@ -112,6 +112,9 @@ class KdeProbeTests(support.TempCase):
             "image-png": "scalable/mimetypes/image-png.svg",
             "start-here-kde": "scalable/apps/start-here-kde.svg",
             "plasmashell": "scalable/apps/start-here-kde.svg",
+            "system-run": "scalable/apps/terminal.svg",
+            "help-browser": "scalable/apps/help.svg",
+            "help-contents": "symbolic/actions/help-contents-symbolic.svg",
             "bookmark-new": "symbolic/actions/bookmark-new-symbolic.svg",
             "kde": "symbolic/emblems/emblem-kde-symbolic.svg",
         }

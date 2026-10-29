@@ -122,6 +122,7 @@ folder-wine-legacy	places/folder-wine
 folder-work-legacy	places/folder-work
 go-home	places/user-home
 gwenview	apps/image-viewer	thirdparty
+help-browser	apps/help
 inode-directory	places/folder
 keyboard	devices/input-keyboard
 multimedia-volume-control	apps/pavucontrol
@@ -181,6 +182,7 @@ software-sources	apps/software
 spectacle	apps/screenshot	thirdparty
 synaptic	apps/software	thirdparty
 system-file-manager	apps/files
+system-run	apps/terminal
 system-software-install	apps/software
 text-x-preview	mimetypes/application-x-generic
 user-info	status/avatar-default
