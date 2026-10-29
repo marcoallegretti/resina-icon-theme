@@ -7,7 +7,7 @@ SPDX-FileCopyrightText = "2026 Marco Allegretti"
 SPDX-License-Identifier = "EUPL-1.2"
 
 [[annotations]]
-path = ["tools/**", "tests/**", "examples/**", ".github/**", "Makefile", "README.md", "NOTICE", ".gitignore", ".gitattributes", "REUSE.toml", "requirements.txt", "requirements-sources.txt"]
+path = ["tools/**", "tests/**", "examples/**", "docs/**", ".github/**", "Makefile", "README.md", "NOTICE", ".gitignore", ".gitattributes", "REUSE.toml", "requirements.txt", "requirements-sources.txt"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Marco Allegretti"
 SPDX-License-Identifier = "EUPL-1.2"

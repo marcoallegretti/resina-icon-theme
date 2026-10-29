@@ -7,6 +7,46 @@ The theme has two icon languages:
 - Full-colour icons on a 128-unit grid for applications, places, file types, devices and status.
 - Symbolic icons on a 24-unit grid with `-symbolic` names. They are filled outlines painted with `currentColor`, so toolkits can recolour them. Each file also carries the `current-color-scheme` stylesheet that KDE rewrites, and `index.theme` sets `FollowsColorScheme=true`, so KDE applications follow the colour scheme as they do with Breeze.
 
+## Gallery
+
+Full-colour icons carry a soft rim light, a contact shadow and one warm palette:
+
+![Application icons](docs/images/colour-apps.png)
+
+Places, folder symbols and file types share the same construction:
+
+![Places and file types](docs/images/colour-places-files.png)
+
+Symbolic icons follow the text colour of the toolkit, light and dark:
+
+![Symbolic icons on a light and a dark background](docs/images/symbolic.png)
+
+Folders have three drawings, chosen by size, so the symbol stays legible from 16 px to 128 px:
+
+![Folder drawings at 16, 24, 32, 48 and 128 px](docs/images/folder-sizes.png)
+
+Status icons come in the levels desktops ask for, such as six Wi-Fi strengths, battery charge and power profile badges:
+
+![Wi-Fi, battery and power profile levels](docs/images/status-levels.png)
+
+### In desktop sessions
+
+These screenshots come from sessions of Plasma 6.4 and GNOME 48 running in a virtual machine, with the theme installed in the user's home directory and selected in the desktop's own settings.
+
+| Plasma, light | Plasma, dark |
+|---|---|
+| ![Dolphin in a light Plasma session](docs/images/plasma-light-dolphin.png) | ![Dolphin in a dark Plasma session](docs/images/plasma-dark-dolphin.png) |
+
+![Resina in the Icons page of Plasma System Settings](docs/images/plasma-settings-icons.png)
+
+| GNOME Files | GNOME Settings |
+|---|---|
+| ![Files in a GNOME session](docs/images/gnome-files.png) | ![Settings in a GNOME session](docs/images/gnome-settings.png) |
+
+In QuickShell, `Image` and `Quickshell.iconPath` load the icons directly. The bar below is the configuration in `examples/quickshell`, including the clock and calendar icons that the shell animates:
+
+![QuickShell example bar](docs/images/quickshell-bar.png)
+
 ## Contents
 
 | Path | Content |
@@ -17,6 +57,7 @@ The theme has two icon languages:
 | `tools/` | build, validation, install and packaging, and the maintainer tool for badge lettering |
 | `tests/` | unit tests, Qt and GTK probes, expectation tables |
 | `examples/` | a Qt Quick application and a QuickShell configuration |
+| `docs/images/` | the pictures shown in this file |
 
 ## Sets
 
